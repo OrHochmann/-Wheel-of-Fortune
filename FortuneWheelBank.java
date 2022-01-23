@@ -19,7 +19,7 @@ public class FortuneWheelBank
 
 	private String randWord() // private get random word function
 	{
-		int randWord = ThreadLocalRandom.current().nextInt(0, WORDS.length);
+		int randWord = ThreadLocalRandom.current().nextInt(0, (WORDS.length)-1);
 		return WORDS[randWord];
 	}
 	
